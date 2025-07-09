@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900");
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F8F7F3;
+}
+
+/* header */
+.navbar-transparent {
+  background-color: transparent !important;
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  color: #AD8262;
+}
+
+.navbar-brand:hover {
+  color: #8D5F4E;
+}
+
+.nav-link:hover {
+  color: #8D5F4E;
+}
+
+.btn-login {
+  background-color: #AD8262;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  border-radius: 30px;
+}
+.btn-login:hover {
+  background-color: #8D5F4E;
+  color: white;
+}
+
+/* hero */
+.main-hero {
+  background-color: #F0E5E2;
+  background-size: cover;
+  padding: 170px 0px 120px 0px;
+}
+  
+.main-hero .item {
+  background-image: url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 25px;
+  padding: 200px 100px;
+}
+  
+.main-hero .item h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 70px;
+  width: 60%;
+  margin-bottom: 40px;
+}
+  
+.main-hero .item p {
+  color: #fff;
+  width: 65%;
+}
+
+/* about us */
+.about {
+  margin-top: 100px;
+}
+
+.about .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about .col-lg-6, .about .col-md-6 {
+  display: flex;
+  align-items: stretch;
+}
+
+.about .about-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.about .about-item .main-content {
+  border-radius: 25px;
+  padding: 50px 30px;
+  background-color: #F0E5E2;
+  margin-bottom: 30px;
+  flex: 1;
+  transition: all .4s;
+}
+
+.about .about-item h4 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  line-height: 30px;
+  transition: all .4s;
+}
+
+.about .about-item p {
+  color: #4a4a4a;
+  margin-bottom: 25px;
+}
+
+/* catalogue */
+.catalogue {
+  margin-top: 100px;
+}
+  
+.catalogue_filter {
+  background-color: #F0E5E2;
+  border-radius: 50px;
+  padding: 15px 40px;
+  list-style: none;
+  margin: 0 auto 70px;
+  max-width: max-content;
+}
+  
+.catalogue_filter li {
+  display: inline-block;
+  margin: 0px 20px;
+}
+  
+.catalogue_filter li a {
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all .3s;
+}
+  
+.catalogue_filter li
+.catalogue_filter li a.is_active,
+.catalogue_filter li a:hover {
+  color: #8D5F4E;
+}
+  
+.catalogue_item .thumb {
+  position: relative;
+  border-radius: 25px;
+  overflow: hidden;
+}
+  
+.catalogue_item .thumb img {
+  margin-bottom: -5px;
+  height: 310px;
+}
+  
+.catalogue_item .thumb span.category {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #AD8262;
+  background-color: rgba(250, 250, 250, 0.95);
+  padding: 8px 20px;
+  border-radius: 25px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.catalogue_item {
+  background-color: #F0E5E2;
+  border-radius: 25px;
+  margin-bottom: 30px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+} 
+  
+.catalogue_item .down-content {
+  padding: 20px 30px 25px 30px;
+}
+  
+.catalogue_item .down-content a.detail {
+  color: #AD8262;
+  font-size: 15px;
+  display: inline-block;
+  margin-bottom: 6px;
+}
+  
+.catalogue_item .down-content h4 {
+  font-size: 22px;
+  font-weight: 600;
+  transition: all .3s;
+}
+  
+.catalogue_item:hover .down-content h4 {
+  color: #8D5F4E;
+}
+
+/* footer */
+.footer {
+  margin-top: 100px;
+  background-color: #F0E5E2;
+}
+
+.footer h5 {
+  letter-spacing: 2px;
+  color: #AD8262;
+}
+
+.footer table {
+  color: black;
+  border-color: black;
+}
+
+/* catalogue detail */
+.catalogue_image_card {
+  padding: 170px 0px 120px 0px;
+  border-radius: 25px;
+}
+
+.catalogue_image_card .container .row .col-md-12 .card .row .card-1 img {
+  background-size: cover;
+  width: 100%;
+  height: 512px;
+}
+
+.back-href {
+  color: #AD8262;
+  margin-left: 5px;
+}
+
+/* order-form */
+.order-form {
+  padding: 170px 0px 120px 0px;
+}
+
+/* check order */
+.check-order {
+  padding: 170px 0px 120px 0px;
+}
